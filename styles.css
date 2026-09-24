@@ -30,6 +30,11 @@ h2 {
   color: white;
 }
 
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -57,7 +62,8 @@ h2 {
 }
 
 .hero p {
-  color: rgb(216, 214, 214);
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .hero button {
@@ -67,4 +73,31 @@ h2 {
   border: 0;
   padding: 5px 20px;
   cursor: pointer;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+.images {
+  display: flex;
+  gap: 70px;
+}
+
+.info-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 5px solid #2c8ff9;
+}
+
+.info-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  color: #515252;
 }
