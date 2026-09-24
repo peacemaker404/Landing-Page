@@ -66,7 +66,8 @@ h3 {
   font-size: 18px;
 }
 
-.hero button {
+.hero button,
+.blue-space button {
   background-color: #007aff;
   color: white;
   border-radius: 5px;
@@ -119,4 +120,37 @@ h3 {
   font-size: 24px;
   font-weight: 900;
   font-style: normal;
+}
+
+.blue-space {
+  display: flex;
+  background-color: #007bff;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 150px;
+  border-radius: 5px;
+  padding: 50px 100px;
+}
+
+.blue-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.without-margin-p {
+  margin-top: 0;
+  color: rgb(217, 216, 216);
+  font-weight: 100;
+}
+
+.without-margin-h4 {
+  margin-bottom: 0;
+  color: white;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.blue-space button {
+  border: 2px solid white;
+  padding: 10px 40px;
 }
