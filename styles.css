@@ -23,10 +23,48 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-weight: 900;
+  font-size: 48px;
+  margin: 0;
+  color: white;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #1f2937;
   font-size: 24px;
+}
+
+.hero {
+  display: flex;
+  background-color: #1f2937;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-text {
+  width: 400px;
+}
+
+.hero-img {
+  height: 250px;
+  width: auto;
+}
+
+.hero p {
+  color: rgb(216, 214, 214);
+}
+
+.hero button {
+  background-color: #007aff;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px 20px;
+  cursor: pointer;
 }
